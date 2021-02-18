@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/BLACK
+cd $HOME/flash-v1
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
