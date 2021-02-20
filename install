@@ -20,7 +20,7 @@ sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua FLASH.lua
-sudo chmod +x FLASH
+sudo chmod +x FLASH.lua
 sudo chmod +x ./BK
 ./BK
 }
