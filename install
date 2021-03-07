@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/top
+cd $HOME/FLASH
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
@@ -20,7 +20,7 @@ sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua BOYKA.lua
-sudo chmod +x top
+sudo chmod +x FLASH
 sudo chmod +x BOYKA
 sudo chmod +x ./BK
 ./BK
@@ -34,7 +34,7 @@ exit 1
 fi
 sudo chmod +x tg
 lua BOYKA.lua
-sudo chmod +x top
+sudo chmod +x flash
 sudo chmod +x ./BK
 ./BK
 fi
