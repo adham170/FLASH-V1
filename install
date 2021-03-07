@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/FIRE
+cd $HOME/top
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
@@ -19,10 +19,11 @@ sudo apt-get install libstdc++6 -y
 sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
-lua FIRE.lua
-sudo chmod +x FIRE
-sudo chmod +x ./FI
-./FI
+lua BOYKA.lua
+sudo chmod +x top
+sudo chmod +x BOYKA
+sudo chmod +x ./BK
+./BK
 }
 if [ "$1" = "install" ]; then
 install
@@ -32,8 +33,8 @@ echo "Tg Is Not Found"
 exit 1
 fi
 sudo chmod +x tg
-lua FIRE.lua
-sudo chmod +x FIRE
-sudo chmod +x ./FI
-./FI
+lua BOYKA.lua
+sudo chmod +x top
+sudo chmod +x ./BK
+./BK
 fi
